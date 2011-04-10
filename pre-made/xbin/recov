@@ -1,0 +1,7 @@
+#!/system/bin/sh
+#Reboot system into recovery mode
+
+echo 'Rebooting into Recovery Mode...'
+
+reboot recovery
+

@@ -1,0 +1,7 @@
+#!/system/bin/sh
+
+reboot -p #poweroff device
+
+
+
+

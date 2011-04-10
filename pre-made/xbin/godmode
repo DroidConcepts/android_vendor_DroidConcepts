@@ -1,0 +1,18 @@
+#!/system/bin/sh
+# godmode - Temporarily Allows Editing Of Any File
+
+mount -o remount,rw -t yaffs2 /dev/block/mtdblock4 /system
+chmod 777 /system/build.prop
+chmod 777 /data
+chmod 777 /data/anr
+chmod 777 /data/app
+chmod 777 /data/app-private
+chmod 777 /data/backup
+chmod 777 /data/backup/com.android.internal.backup.LocalTransport
+chmod 777 /data/backup/com.google.android.backup.BackupTransportService
+chmod 777 /data/backup/pending
+chmod 777 /data/dalvik-cache
+chmod 777 /data/data
+
+echo 'Dear PeterAlfonso,'
+echo 'The Droid Concepts staff would like to thank you for this script.'

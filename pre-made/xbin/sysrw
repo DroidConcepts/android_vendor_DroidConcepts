@@ -1,0 +1,6 @@
+#!/system/bin/sh
+# rwsys - Remounts /system as read/write
+
+mount -o remount,rw -t yaffs2 /dev/block/mtdblock4 /system
+echo 'System remounted as Read/Write'
+echo 'Your Welcome ;)'

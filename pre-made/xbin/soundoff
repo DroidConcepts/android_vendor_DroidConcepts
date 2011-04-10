@@ -1,0 +1,11 @@
+#!/system/bin/sh
+# soundoff - Disables camera and video recording sounds
+
+mount -o remount,rw -t yaffs2 /dev/block/mtdblock4 /system
+busybox mv /system/media/audio/ui/camera_click.ogg /system/media/audio/ui/camera_click.bak
+busybox mv /system/media/audio/ui/VideoRecord.ogg /system/media/audio/ui/VideoRecord.bak
+mount -o remount,ro -t yaffs2 /dev/block/mtdblock4 /system
+sync
+echo 'Camera & Video Recording Sounds Disabled'
+echo 'Succulent Desire by: Droid Concepts'
+
