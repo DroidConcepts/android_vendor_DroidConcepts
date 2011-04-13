@@ -18,10 +18,11 @@ PRODUCT_PACKAGES += \
     DCWallpapers \
     Superuser 
 
-# Copy changelog and credits to device
+# Copy changelog, credits, and license to device
 PRODUCT_COPY_FILES += \
     android/changelog:system/etc/DC-CHANGELOG.txt \
-    android/credits:system/etc/DC-CREDITS.txt
+    android/credits:system/etc/DC-CREDITS.txt \
+    android/LICENSE:system/etc/DC-LICENSE.txt
 
 # Common Droid Concepts super-impose
 PRODUCT_PACKAGE_OVERLAYS += vendor/DroidConcepts/super-impose/common

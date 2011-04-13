@@ -16,7 +16,6 @@ PRODUCT_MANUFACTURER := Motorola
 
 PRODUCT_COPY_FILES +=  \
     vendor/DroidConcepts/pre-made/app/VideoPlayerMoto.apk:system/app/VideoPlayerMoto.apk \
-    vendor/DroidConcepts/pre-made/app/SonyLauncher.apk:system/app/SonyLauncher.apk \
     vendor/DroidConcepts/pre-made/app/FileManager.apk:system/app/FileManager.apk \
     vendor/DroidConcepts/pre-made/fonts/DroidSans.ttf:system/fonts/DroidSans.ttf \
     vendor/DroidConcepts/pre-made/fonts/DroidSans-Bold.ttf:system/fonts/DroidSans-Bold.ttf \
@@ -52,7 +51,7 @@ PRODUCT_COPY_FILES +=  \
     vendor/DroidConcepts/pre-made/xbin/sysrw:system/xbin/sysrw \
     vendor/DroidConcepts/pre-made/xbin/uptime:system/xbin/uptime \
     vendor/DroidConcepts/pre-made/xbin/zipalign:system/xbin/zipalign \
-    vendor/DroidConcepts/pre-made/xbin/zipalign_apks:system/xbin/zipalign_apks \
+    vendor/DroidConcepts/pre-made/xbin/zipalign_apks:system/xbin/zipalign_apks 
    
 # Droid Concepts sholes super-impose
 PRODUCT_PACKAGE_OVERLAYS += vendor/DroidConcepts/super-impose/sholes
