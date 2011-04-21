@@ -16,7 +16,7 @@ PRODUCT_MANUFACTURER := Motorola
 
 PRODUCT_COPY_FILES +=  \
     vendor/DroidConcepts/pre-made/app/VideoPlayerMoto.apk:system/app/VideoPlayerMoto.apk \
-    vendor/DroidConcepts/pre-made/app/FileManager.apk:system/app/FileManager.apk \
+    vendor/DroidConcepts/pre-made/bin/bootanimation:system/bin/bootanimation \
     vendor/DroidConcepts/pre-made/fonts/DroidSans.ttf:system/fonts/DroidSans.ttf \
     vendor/DroidConcepts/pre-made/fonts/DroidSans-Bold.ttf:system/fonts/DroidSans-Bold.ttf \
     vendor/DroidConcepts/pre-made/media/bootanimation.zip:system/media/bootanimation.zip \
