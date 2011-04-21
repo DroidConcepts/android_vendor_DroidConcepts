@@ -16,6 +16,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PACKAGES += \
     AppWidgetPicker \
     DCWallpapers \
+    FileMananger \
     Superuser 
 
 # Copy changelog, credits, and license to device
