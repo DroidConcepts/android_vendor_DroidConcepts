@@ -16,6 +16,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PACKAGES += \
     AppWidgetPicker \
     DCWallpapers \
+    DroidConceptsSettings \
     FileManager \
     Superuser 
 
