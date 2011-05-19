@@ -24,7 +24,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     android/changelog:system/etc/DC-CHANGELOG.txt \
     android/credits:system/etc/DC-CREDITS.txt \
-    android/LICENSE:system/etc/DC-LICENSE.txt
+    android/LICENSE:system/etc/DC-LICENSE.txt \
+    android/contributors:system/etc/DC-CONTRIBUTORS.txt
 
 # Common Droid Concepts super-impose
 PRODUCT_PACKAGE_OVERLAYS += vendor/DroidConcepts/super-impose/common
