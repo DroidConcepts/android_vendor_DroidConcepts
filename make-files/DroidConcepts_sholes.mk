@@ -51,4 +51,5 @@ PRODUCT_COPY_FILES +=  \
     vendor/DroidConcepts/pre-made/xbin/zipalign_apks:system/xbin/zipalign_apks 
    
 # Droid Concepts sholes super-impose
+PRODUCT_PACKAGE_OVERLAYS += vendor/DroidConcepts/super-impose/common \
 PRODUCT_PACKAGE_OVERLAYS += vendor/DroidConcepts/super-impose/sholes
