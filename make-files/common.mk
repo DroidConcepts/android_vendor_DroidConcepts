@@ -28,4 +28,4 @@ PRODUCT_COPY_FILES += \
     android/contributors:system/etc/DC-CONTRIBUTORS.txt
 
 # Common Droid Concepts super-impose
-PRODUCT_PACKAGE_OVERLAYS += vendor/DroidConcepts/super-impose/common
+DEVICE_PACKAGE_OVERLAYS += vendor/DroidConcepts/super-impose/common
