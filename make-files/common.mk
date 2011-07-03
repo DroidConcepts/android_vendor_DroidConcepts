@@ -15,6 +15,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Droid Concepts specific packages
 PRODUCT_PACKAGES += \
     AppWidgetPicker \
+    DCSHelper \
     DCWallpapers \
     DroidConceptsSettings \
     FileManager \
